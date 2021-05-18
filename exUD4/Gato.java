@@ -1,7 +1,8 @@
 package pgn.exUD4;
 
 public class Gato {
-	private int edad;
+	private static final String MIAUUUUUUUUUUUUU = "Miauuuuuuuuuuuuu";
+  private int edad;
 	private String nombre;
 
 	public Gato(String nombre, int edad) throws EdadErroneaException {
@@ -20,7 +21,7 @@ public class Gato {
 	}
 
 	public String maullar() {
-		return "Miauuuuuuuuuuuuu";
+		return MIAUUUUUUUUUUUUU;
 	}
 
 	public String getNombre() {
