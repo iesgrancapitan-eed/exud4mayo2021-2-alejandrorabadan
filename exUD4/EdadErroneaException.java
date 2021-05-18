@@ -7,6 +7,7 @@ package pgn.exUD4;
 public class EdadErroneaException extends Exception {
 /**
  * 
+ * 
  * @param string Mensaje de error
  */
 	public EdadErroneaException(String string) {
